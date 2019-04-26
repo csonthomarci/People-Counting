@@ -2,6 +2,7 @@ C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\bi
 C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\bin\Release\People Counter.exe
 C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\bin\Release\People Counter.pdb
 C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\obj\Release\People_Counter.Form.resources
+C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\obj\Release\People_Counter.Popup.resources
 C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\obj\Release\People_Counter.Properties.Resources.resources
 C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\obj\Release\People Counter.csproj.GenerateResource.cache
 C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\obj\Release\People Counter.csproj.CoreCompileInputs.cache

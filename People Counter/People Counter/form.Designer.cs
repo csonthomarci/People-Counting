@@ -34,12 +34,12 @@
             this.helyi_fel = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.resetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.kulfoldi_fel = new System.Windows.Forms.Label();
             this.kulfoldi_le = new System.Windows.Forms.Label();
-            this.resetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -48,7 +48,7 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(122, 4);
+            this.label1.Location = new System.Drawing.Point(118, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(33, 13);
             this.label1.TabIndex = 0;
@@ -59,7 +59,7 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(264, 4);
+            this.label2.Location = new System.Drawing.Point(261, 4);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 1;
@@ -69,7 +69,7 @@
             // 
             this.helyi_le.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.helyi_le.AutoSize = true;
-            this.helyi_le.Location = new System.Drawing.Point(132, 131);
+            this.helyi_le.Location = new System.Drawing.Point(128, 131);
             this.helyi_le.Name = "helyi_le";
             this.helyi_le.Size = new System.Drawing.Size(13, 13);
             this.helyi_le.TabIndex = 2;
@@ -80,7 +80,7 @@
             // 
             this.helyi_fel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.helyi_fel.AutoSize = true;
-            this.helyi_fel.Location = new System.Drawing.Point(132, 51);
+            this.helyi_fel.Location = new System.Drawing.Point(128, 51);
             this.helyi_fel.Name = "helyi_fel";
             this.helyi_fel.Size = new System.Drawing.Size(13, 13);
             this.helyi_fel.TabIndex = 3;
@@ -104,12 +104,20 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(61, 20);
             this.toolStripMenuItem1.Text = "Settings";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // resetToolStripMenuItem
+            // 
+            this.resetToolStripMenuItem.Name = "resetToolStripMenuItem";
+            this.resetToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.resetToolStripMenuItem.Text = "Reset";
+            this.resetToolStripMenuItem.Click += new System.EventHandler(this.resetToolStripMenuItem_Click);
             // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(16, 51);
+            this.label3.Location = new System.Drawing.Point(15, 51);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(24, 13);
             this.label3.TabIndex = 5;
@@ -119,7 +127,7 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(17, 131);
+            this.label4.Location = new System.Drawing.Point(16, 131);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(22, 13);
             this.label4.TabIndex = 6;
@@ -131,7 +139,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.34247F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 74.65753F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 130F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 136F));
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label4, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.helyi_fel, 1, 1);
@@ -154,7 +162,7 @@
             // 
             this.kulfoldi_fel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kulfoldi_fel.AutoSize = true;
-            this.kulfoldi_fel.Location = new System.Drawing.Point(280, 51);
+            this.kulfoldi_fel.Location = new System.Drawing.Point(277, 51);
             this.kulfoldi_fel.Name = "kulfoldi_fel";
             this.kulfoldi_fel.Size = new System.Drawing.Size(13, 13);
             this.kulfoldi_fel.TabIndex = 7;
@@ -164,18 +172,11 @@
             // 
             this.kulfoldi_le.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kulfoldi_le.AutoSize = true;
-            this.kulfoldi_le.Location = new System.Drawing.Point(280, 131);
+            this.kulfoldi_le.Location = new System.Drawing.Point(277, 131);
             this.kulfoldi_le.Name = "kulfoldi_le";
             this.kulfoldi_le.Size = new System.Drawing.Size(13, 13);
             this.kulfoldi_le.TabIndex = 8;
             this.kulfoldi_le.Text = "0";
-            // 
-            // resetToolStripMenuItem
-            // 
-            this.resetToolStripMenuItem.Name = "resetToolStripMenuItem";
-            this.resetToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
-            this.resetToolStripMenuItem.Text = "Reset";
-            this.resetToolStripMenuItem.Click += new System.EventHandler(this.resetToolStripMenuItem_Click);
             // 
             // Form
             // 
