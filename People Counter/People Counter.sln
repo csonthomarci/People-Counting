@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "People Counter", "People Counter\People Counter.csproj", "{EEF7FF9E-0E40-4D24-AB92-8820FD456BC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEF7FF9E-0E40-4D24-AB92-8820FD456BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF7FF9E-0E40-4D24-AB92-8820FD456BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF7FF9E-0E40-4D24-AB92-8820FD456BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF7FF9E-0E40-4D24-AB92-8820FD456BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8556BF83-4608-4962-818A-94E4D6E468B0}
+	EndGlobalSection
+EndGlobal

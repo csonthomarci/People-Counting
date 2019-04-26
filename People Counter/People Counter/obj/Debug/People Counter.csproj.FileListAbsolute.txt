@@ -1,0 +1,10 @@
+C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\bin\Debug\People Counter.exe.config
+C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\bin\Debug\People Counter.exe
+C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\bin\Debug\People Counter.pdb
+C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\obj\Debug\People Counter.csprojAssemblyReference.cache
+C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\obj\Debug\People_Counter.Form.resources
+C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\obj\Debug\People_Counter.Properties.Resources.resources
+C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\obj\Debug\People Counter.csproj.GenerateResource.cache
+C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\obj\Debug\People Counter.csproj.CoreCompileInputs.cache
+C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\obj\Debug\People Counter.exe
+C:\Users\csont\Documents\GitHUB\People Counting\People Counter\People Counter\obj\Debug\People Counter.pdb
